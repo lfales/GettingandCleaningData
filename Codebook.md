@@ -52,9 +52,10 @@ Relabels the data set with descriptive activity names.
 Creates a second, tidy data set with the average of each variable for each activity and each subject.
 How run_analysis.R implements the above steps:
 
-Requires data.table and plyr libraries.
+Requires installing data.table and plyr libraries.
 Loads both test and train data
 Loads the features and activity labels.
 Pulls the mean and standard deviation column names and data.
 Process both the test and train data. 
 Merge data set.
+Create a tidy data set.
